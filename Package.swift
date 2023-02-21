@@ -7,7 +7,7 @@ let name = "Communicator"
 
 let package = Package(
     name: name,
-	platforms: [.iOS(.v10), .watchOS(.v3)],
+	platforms: [.iOS(.v10), .watchOS(.v6)],
     products: [.library(name: name, targets: [name])],
 	targets: [.target(name: name, path: "Sources")],
 	swiftLanguageVersions: [.v5]
